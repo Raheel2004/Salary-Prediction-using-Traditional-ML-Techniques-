@@ -18,6 +18,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import streamlit as st
+!pip install streamlit
 
 #1. Choose a Dataset
 import pandas as pd
@@ -104,4 +105,3 @@ st.success(f"Predicted Salary: ${prediction:,.2f}")
 # Step 9: Deployment
 # Use 'render.yaml' or Render Dashboard to deploy the app
 
-!pip install streamlit
